@@ -2,8 +2,7 @@ require('dotenv').config()
 
 const app = require('./app.js')
 
-// connect to the db before we start our app so we can then
-// access models and collections
+// connect to the db
 const dbConnection = require('../db/connect.js')
 
 dbConnection.once('open', () => {
