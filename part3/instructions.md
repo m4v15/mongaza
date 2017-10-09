@@ -1,3 +1,5 @@
+# Instructions
+
 - To see a working solutions run `node /db/build.js` (from this directory)
 - This command will populate your database with students and mentors.
 
