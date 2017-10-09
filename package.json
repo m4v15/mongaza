@@ -4,7 +4,9 @@
   "description": "MongoDb workshop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "part1": "nodemon part1/src/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/start.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/m4v15/mongaza/issues"
   },
-  "homepage": "https://github.com/m4v15/mongaza#readme"
+  "homepage": "https://github.com/m4v15/mongaza#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "mongoose": "^4.12.1"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.12.1"
+  }
 }
