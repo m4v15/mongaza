@@ -1,0 +1,19 @@
+{
+  "name": "mongaza",
+  "version": "1.0.0",
+  "description": "MongoDb workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4v15/mongaza.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m4v15/mongaza/issues"
+  },
+  "homepage": "https://github.com/m4v15/mongaza#readme"
+}
